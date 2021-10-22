@@ -22,6 +22,15 @@
      <section class="section-1">
       <div class="navbar-wrapper">
         <nav class="navbar">
+            <div class="menu">
+                <div class="menu-icon">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                   
+                </div>
+                <span>Menu</span>
+            </div>
             <div class="navbar-logo logo">
                 <span class="p-1">P</span>
                 <span class="p-2">P</span>
@@ -29,11 +38,21 @@
             </div>
   
             <ul class="nav-list">
-                <li class="nav-list-item"><a href="" class="nav-list-link"> Personal <i class="fas fa-chevron-down"></i></a>
-                <ul class="nav-dropdown">
+                <li class="nav-list-item dropown-hover">
+                    <a href="" class="nav-list-link show-dropdown">
+                         Personal
+                 <i class="fas fa-chevron-down"></i></a>
+                <ul class="nav-dropdown nav-dropdown-personal">
+                    <li class="nav-dropdown-item nav-dropdown-heading">
+                        <a href="#" class="dropdown-heading-link">
+                            <i class="fas fa-chevron-down"></i>
+                            personal
+                        </a>
+                    </li>
                     <li class="nav-dropdown-item">
                         <a href="" class="nav-dropdown-link1">How paypal works</a>
                         <a href="" class="nav-dropdown-link2">What can you do with a personal account</a>
+
                     </li>
 
                     <li class="nav-dropdown-item">
@@ -53,8 +72,15 @@
                     </li>
                 </ul>
                 </li>
-                <li class="nav-list-item"><a href="" class="nav-list-link">Business  <i class="fas fa-chevron-down"></i></a>
-                    <ul class="nav-dropdown">
+                <li class="nav-list-item dropdown-hover">
+                    <a href="" class="nav-list-link show-dropdown">Business  <i class="fas fa-chevron-down"></i></a>
+                    <ul class="nav-dropdown nav-dropdown-business">
+                        <li class="nav-dropdown-item nav-dropdown-heading">
+                            <a href="#" class="dropdown-heading-link">
+                                <i class="fas fa-chevron-down"></i>
+                                Business
+                            </a>
+                        </li>
                         <li class="nav-dropdown-item">
                             <a href="" class="nav-dropdown-link1">All Business Solutions</a>
                             <a href="" class="nav-dropdown-link2">See your range of products</a>
@@ -343,6 +369,9 @@
           </div>
       </div>
       <!--end of signup form  -->
+      <!-- personal account -->
+      
+      <!-- End of personal Account -->
     </div>
     <script src="script.js"></script>
 </body>
